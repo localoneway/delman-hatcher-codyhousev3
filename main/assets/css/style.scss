@@ -71,7 +71,7 @@ video {max-width: auto !important;}
   position: fixed;
   top: var(--space-sm);
   left: var(--space-sm);
-  z-index: var(--zindex-fixed-element);
+  z-index: 999;
   border-radius: 50%;
   transition: -webkit-transform 0.3s var(--ease-in-out);
   transition: transform 0.3s var(--ease-in-out);
@@ -150,13 +150,6 @@ video {max-width: auto !important;}
 .anim-menu-btn--state-b .anim-menu-btn__icon--doner::after {
   width: 50%;
 }
-.anim-menu-btn--state-b .anim-menu-btn__icon--doner::before {
-
-}
-.anim-menu-btn--state-b .anim-menu-btn__icon--doner::after {
-
-}
-
 
 .anim-menu-btn__icon {
   position: relative;
@@ -400,7 +393,7 @@ animation: services-gradient 1s ease-in-out;
 }
 
 /*-- Weird Updates Gradient Start --*/
-.tile-h2{}
+
 .top-sides-to-bottom, .top-sides-to-bottom-team {
   position: relative;
   border-top: 1px solid white;
@@ -473,8 +466,6 @@ animation: services-gradient 1s ease-in-out;
  text-decoration: none;
 }
 
-
-.services-square{}
 
 .video-h2
 {
