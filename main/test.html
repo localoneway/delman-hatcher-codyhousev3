@@ -65,151 +65,132 @@
     </div>
     <!-- Fixed Bar END -->
     <!-- insert your main content here -->
-            <section class="contact">
-              <div class="contact-video-bg__media" aria-hidden="true">
-                <video id="videoBG" autoplay loop muted playsinline class="video-background">
-                  <source src="/assets/img/contact_globe.mp4" type="video/mp4">
-                    <source src="/assets/img/contact_globe.webm" type="video/webm">
-            </video>
-              </div>
-
-              <div class="container">
-            <div class="grid gap-xl position-relative z-index-1 height-100vh@xl height-100vh@lg height-100vh@md height-50vh@xs padding-y-xxl flex flex-center">
-              <div class="col-4@xl col-4@lg col-4@md col@sm col@xs position-relative z-index-1 container max-width-sm text-contact text-right@lg text-center@sm">
-                <span class="font-light text-xxxl"></span>
-              </div>
-              <div class="col-8@xl col-8@lg col-8@md col@sm col@xs text-left@lg text-left@md">
-              <div class="width-100% font-light text-xxxl padding-top-xs link-fx-del cursor-pointer" aria-controls="modal-form-1"><span>Get in touch</span><svg class="icon" viewBox="0 0 12 12" aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="9" y1="6" x2="3.5" y2="11.5"/><line x1="3.5" y1="0.5" x2="9" y2="6"/></svg></div>
-              </div>
-                <div class="width-100% font-light text-xxxl padding-top-xs link-fx-del cursor-pointer" aria-controls="modal-form"><span>Stay in touch</span><svg class="icon" viewBox="0 0 12 12" aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="9" y1="6" x2="3.5" y2="11.5"/><line x1="3.5" y1="0.5" x2="9" y2="6"/></svg></div>
-                  </div>
-                    </div>
-                  </section>
-                </main>
-
-                    <div class="modal modal--animate-scale flex flex-center bg-contrast-lower bg-opacity-90% padding-md js-modal z-index-3" id="modal-form-1" data-modal-prevent-scroll="body">
-                    <div class="modal__content width-100% max-width-xs max-height-100% overflow-auto padding-md bg radius-md shadow-md" role="alertdialog" aria-labelledby="modal-form-title" aria-describedby="modal-form-description">
-                    <fieldset class="margin-bottom-md padding-bottom-md border-bottom">
-                      <div class="text-component margin-bottom-md">
-                        <!-- Form 1 start -->
-                        <form method="POST" data-netlify="true" name="contact-page-form" id="contact-page-form" class="form-template-v3">
-                          <input type="hidden" name="contact-page-form" value="contact-page-form" />
-                          <fieldset class="margin-bottom-md padding-bottom-md border-bottom">
-<div class="text-component margin-bottom-md text-center">
-  <h2>Contact Hatcher</h2>
-</div>
-
-<div class="margin-bottom-xs">
-  <div class="grid gap-xxs items-center@md">
-    <div class="col-4@md">
-      <label class="form-label" for="firstName">Name</label>
-    </div>
-
-    <div class="col-8@md">
-      <input class="form-control width-100%" type="text" name="name" id="firstName" required>
-    </div>
-  </div>
-</div>
-
-<div class="margin-bottom-xs">
-  <div class="grid gap-xxs items-center@md">
-    <div class="col-4@md">
-      <label class="form-label" for="inputEmail">Email</label>
-    </div>
-
-    <div class="col-8@md">
-      <input class="form-control width-100%" type="email" name="email" id="inputEmail" required>
-    </div>
-  </div>
-</div>
-
-<div class="margin-bottom-xs">
-  <div class="grid gap-xxs items-center@md">
-    <div class="col-4@md">
-      <label class="form-label" for="companyName">Company Name</label>
-    </div>
-
-    <div class="col-8@md">
-      <input class="form-control width-100%" type="text" name="companyName" id="companyName" required>
-    </div>
-  </div>
-</div>
-
-<div>
-  <div class="grid gap-xxs items-center@md">
-    <div class="col-4@md">
-      <label class="form-label" for="textarea">Message</label>
-    </div>
-
-    <div class="col-8@md">
-      <textarea class="form-control width-100%" name="textarea" id="textarea"></textarea>
-    </div>
-  </div>
-</div>
-</fieldset>
-
-
-<div class="text-right">
-<button type="submit" class="btn btn--primary">Send</button>
-</div>
-</form>
-
-          <div class="text-component">
-            <p class="text-xs color-contrast-medium">We respect your privacy - <a href="https://www.termsfeed.com/live/6b875575-f7ec-488a-8d71-b2ab30972009" target="_blank" class="color-accent">read more.</a></p></div>
-
-                    <button class="reset modal__close-btn modal__close-btn--outer  js-modal__close js-tab-focus">
-                      <svg class="icon icon--sm" viewBox="0 0 24 24">
-                        <title>Close modal window</title>
-                        <g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <line x1="3" y1="3" x2="21" y2="21" />
-                          <line x1="21" y1="3" x2="3" y2="21" />
-                        </g>
-                      </svg>
-                    </button>
-                    </div>
-                  </div>
-                  </div>
-                  </div>
-    <!-- FORM 1 END -->
-
-
-                <!-- FORM 2 START -->
-                <div class="modal modal--animate-scale flex flex-center bg-contrast-lower bg-opacity-90% padding-md js-modal" id="modal-form" data-modal-prevent-scroll="body">
-                  <div class="modal__content width-100% max-width-xs max-height-100% overflow-auto padding-md bg radius-md shadow-md" role="alertdialog" aria-labelledby="modal-form-title" aria-describedby="modal-form-description">
-                    <form method="POST" data-netlify="true" netlify-honeypot="bot-field" name="email-signup" id="email-signup" class="form-template-v3">
-                  <fieldset class="margin-bottom-md padding-bottom-md border-bottom">
-                    <div class="text-component margin-bottom-md">
-          <h3 id="modal-form-title">Sign up for our newsletter</h3>
-        </div>
-          <div class="flex flex-column flex-row@xs gap-xxxs">
-            <input type="hidden" name="email-signup" value="email-signup" />
-            <input aria-label="Email" name="emailSignup" class="form-control flex-grow" type="email" placeholder="Email" required>
-            <button type="submit" class="btn btn--primary">Subscribe</button>
+    <article class="t-article-v3 padding-bottom-lg">
+      <div class="t-article-v3__hero margin-bottom-lg" style="background-image: url('../../../app/assets/img/article-v3-img-1.jpg');">
+        <div class="container max-width-adaptive-sm">
+          <div class="t-article-v3__intro-text text-component text-center">
+            <h1 class="text-xxxl color-inherit">I watched the storm, so beautiful yet terrific</h1>
+            <p class="text-sm color-inherit">November 21, 2020 - <a href="#0" class="color-inherit">15 comments</a></p>
           </div>
-        </form>
-  
-        <div class="text-component">
-          <p class="text-xs color-contrast-medium">We respect your privacy - <a href="https://www.termsfeed.com/live/6b875575-f7ec-488a-8d71-b2ab30972009" target="_blank" class="color-accent">read more.</a></p></div>
+        </div>
       </div>
-  
-                  <button class="reset modal__close-btn modal__close-btn--outer  js-modal__close js-tab-focus">
-                    <svg class="icon icon--sm" viewBox="0 0 24 24">
-                      <title>Close modal window</title>
-                      <g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <line x1="3" y1="3" x2="21" y2="21" />
-                        <line x1="21" y1="3" x2="3" y2="21" />
-                      </g>
-                    </svg>
-                  </button>
-                    </div>
-                  </div>
-  
-  <!-- FORM END -->
-                  </div>
-                </div>
-              </div>
+    
+      <div class="container max-width-adaptive-sm margin-bottom-xl js-sticky-sharebar-target">
+        <div class="text-component line-height-lg text-space-y-md">
+          <p class="drop-cap">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, temporibus, aut officia minus sequi quae <a href="#0">molestias beatae</a>, qui ipsa mollitia alias accusamus voluptate ratione provident numquam iure quia aliquam tempore possimus consequatur vel. Iure atque enim in? Magnam quis cupiditate quia labore quaerat, eligendi nobis, ab similique harum nostrum nulla aliquam dolore adipisci ut. Eaque doloremque iure veniam nobis asperiores!</p>
+        
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis architecto doloribus perspiciatis.</p>
+        
+          <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+        
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, animi. <mark>Praesentium esse magnam sequi aut, repellat pariatur beatae quis</mark>. Quidem harum dolores ab velit neque suscipit vitae pariatur, perspiciatis voluptatum molestiae facere ad tempora. Non omnis fugiat libero magnam sapiente vel. Optio a, enim explicabo totam amet omnis accusantium! Quod.</p>
+        
+          <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt soluta similique quia.</blockquote>
+        
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga architecto accusamus?</p>
+        
+          <ul class="list list--ul">
+            <li>Lorem, ipsum</li>
+            <li>
+              Lorem ipsum dolor sit amet
+              <ul class="list list--ul">
+                <li>Lorem, ipsum</li>
+                <li>Lorem, ipsum</li>
+              </ul>
+            </li>
+            <li>Lorem, ipsum</li>
+          </ul>
+        
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas unde nihil alias culpa voluptas quibusdam aliquam, veniam nostrum. Vitae molestiae quia minima aut eligendi quidem expedita consequuntur recusandae ad itaque.</p>
+        
+          <ol class="list list--ol">
+            <li>Lorem, ipsum</li>
+            <li>
+              Lorem ipsum dolor sit amet
+              <ol class="list list--ol">
+                <li>Lorem, ipsum</li>
+                <li>Lorem, ipsum</li>
+              </ol>
+            </li>
+            <li>Lorem, ipsum</li>
+          </ol>
+        
+          <hr>
+        
+          <div class="text-component__block text-component__block--outset">
+            <h3 class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae officiis similique enim?</h3>
+          </div>
+        
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat hic autem consequatur libero, impedit fugiat facere ex! Fugit, cumque minus!</p>
+        
+          <figure class="text-component__block">
+            <img src="../../../app/assets/img/article-example-img-2.svg" alt="Image description here">
+            <figcaption>Image caption</figcaption>
+          </figure>
+        
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto odit incidunt nobis cumque, assumenda quidem ducimus! Architecto, molestias reiciendis tempora pariatur nobis nam quibusdam, nemo repellendus rerum rem quam soluta.</p>
+        
+          <figure class="text-component__block text-component__block--left">
+            <img src="../../../app/assets/img/article-example-img-2.svg" alt="Image description here">
+            <figcaption>Image caption</figcaption>
+          </figure>
+        
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis incidunt minus vero deserunt illum perspiciatis sed sit. Officia, quia at? Nisi dolores quis culpa nulla eveniet? Rem vel numquam ipsa voluptatum voluptate illo minima, temporibus atque officia soluta magnam laborum neque alias consequuntur enim aliquid consequatur non accusamus exercitationem. Perspiciatis dolorem a commodi alias, ad corporis iusto magnam in quae deleniti incidunt facilis voluptatibus. Aliquid reprehenderit, provident, totam necessitatibus cumque vel veniam consequuntur maxime iure accusamus explicabo recusandae neque quas?</p>
+        
+          <figure class="text-component__block text-component__block--outset text-component__block--right">
+            <img src="../../../app/assets/img/article-example-img-2.svg" alt="Image description here">
+            <figcaption>Image caption</figcaption>
+          </figure>
+        
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod incidunt provident aspernatur quibusdam expedita soluta voluptas, sapiente ipsa praesentium eum earum, modi necessitatibus a eveniet quidem doloribus, sequi sed tenetur nesciunt consectetur totam asperiores assumenda inventore porro. Enim beatae iure ullam consequuntur, quibusdam similique quae doloribus delectus ipsa, cumque odit voluptatem? Natus, dolorem quaerat! Magni fugit enim nam quam beatae facilis, consequuntur sunt totam pariatur aperiam sequi laboriosam similique dolores aspernatur alias consectetur maxime voluptas, ut tempore. Ipsam vel, id repellat maiores non fuga unde modi voluptates nam reiciendis blanditiis. At veniam odit illum porro maiores magni quasi deserunt est?</p>
+        
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos vitae, sequi officia dignissimos laboriosam atque esse omnis. Perspiciatis, ratione eius.</p>
+        
+          <div class="text-component__block text-component__block--outset">
+            <div class="grid gap-xs">
+              <figure class="col">
+                <img src="../../../app/assets/img/article-example-img-1.svg" alt="Image description here">
+                <figcaption>Image caption</figcaption>
+              </figure>
+        
+              <figure class="col">
+                <img src="../../../app/assets/img/article-example-img-1.svg" alt="Image description here">
+                <figcaption>Image caption</figcaption>
+              </figure>
             </div>
-          </div><!---END--->
+          </div>
+        
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem dolore fugiat facilis sint quidem obcaecati voluptas ut quae aliquam dolorem omnis, odit nihil! Sint doloremque voluptates laborum illo excepturi eligendi asperiores corporis voluptatem iusto? Voluptatem repellendus consectetur exercitationem, quisquam corrupti rem reiciendis maiores aspernatur quaerat impedit aliquid minus voluptate, incidunt eveniet, et numquam non eligendi! Officiis suscipit ad illo.</p>
+    
+          <div class="text-component__block text-component__block--outset">
+            <figure class="aspect-ratio-16:9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/zAGVQLHvwOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </figure>
+          </div>
+    
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem dolore fugiat facilis sint quidem obcaecati voluptas ut quae aliquam dolorem omnis, odit nihil! Sint doloremque voluptates laborum illo excepturi eligendi asperiores corporis voluptatem iusto? Voluptatem repellendus consectetur exercitationem, quisquam corrupti rem reiciendis maiores aspernatur quaerat impedit aliquid minus voluptate, incidunt eveniet, et numquam non eligendi! Officiis suscipit ad illo.</p>
+        </div>
+      </div>
+    
+      <div class="t-article-v3__divider container max-width-adaptive-sm margin-bottom-xl" aria-hidden="true"><span></span></div>
+    
+      <div class="container max-width-adaptive-sm">
+        <div class="author ">
+          <a href="#0" class="author__img-wrapper">
+            <img src="assets/img/Petra_pic.jpg" alt="Author picture">
+          </a>
+    
+          <div class="author__content text-component text-space-y-xxs">
+            <h4>Hi! I'm <a href="#0" rel="author">Olivia Gribben</a></h4>
+            <p class="color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, accusantium consequatur. Perspiciatis!</p>
+            <p class="text-sm"><a href="#0">@oliviagribben</a></p>
+          </div>
+        </div>
+      </div>
+    </article>
+    
+    
+
 <script src="assets/js/scripts.js"></script>
 </body>
 </html>
