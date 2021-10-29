@@ -17242,7 +17242,7 @@ ul.sustainability-list > li::before {
 .card-v9--overlay-bg img:hover {
   background-size: contain;
   transform: scale(1.5);
-  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /*-- Page Transition - START --*/
@@ -17327,7 +17327,6 @@ ul.sustainability-list > li::before {
 /*-- Pop up window --- */
 .modal {
   position: fixed;
-  z-index: var(--zindex-overlay);
   width: 100%;
   height: 100%;
   left: 0;
