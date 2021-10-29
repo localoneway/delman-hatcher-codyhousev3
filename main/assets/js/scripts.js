@@ -1319,16 +1319,15 @@ function resetFocusTabsStyle() {
           swipe : false // enable/disable swipe
         }); 
       }
-      // animated headline
+       // animated headline
     var headline = newContent.getElementsByClassName('text-anim');
     if(headline.length > 0) {
       new TextAnim(headline);
       }
       // Modal
       var modal = newContent.getElementsByClassName('modal');
-      if(modal.length > 0) {
-        new Modal(modal);
-      }
+      new Modal(modal);
+      
     },
   });
 
